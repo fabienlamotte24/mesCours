@@ -1,0 +1,12 @@
+body{
+  background-color: rgb(255,0,0);
+}
+h1{
+  text-align: center;
+}
+.cours{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}

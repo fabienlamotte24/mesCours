@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>TERMINAL</title>
+  </head>
+  <body>
+        <h1>La ligne de commande</h1>
+        <p class="retour"><a href="../../index.html">Retour</a></p>
+            <h3>ls</h3>
+                <ul>
+                    <li>ls:Afficher la liste du dossier courant</li>
+                    <li>ls -l:Lister (version longue)</li>
+                    <li>ls -a:Affiche aussi les fichiers caché</li>
+                    <li>ls -al:Affiche tout les fichiers, même cachés</li>
+                </ul>
+            <h3>Chemin/arborescence</h3>
+                <ul>
+                    <li>pwd:Affiche le chemin du dossier courant.</li>
+                    <li>cd /home/utilisateur/dossier :Se déplacer vers le chemin souhaité</li>
+                    <li>c .. :Remonter au dossier parent</li>
+                </ul>
+            <h3>Les paquets</h3>
+                <ul>
+                    <li>Sudo -s:Se mettre en super-utilisateur <g>(à éviter)</g></li>
+                    <li>Sudo apt + fonctionDesiree: Appliquer une fonction en tant que superutilisateur (à privilégié car plus prudent)</li>
+                    <li>apt update: Sert à déterminer si une mise à jour est nécessaire parmis la liste des paquets</li>
+                    <li>apt upgrade: Met à jour les paquets</li>
+                    <li>apt search "caractère":Rechercher un paquet</li>
+                    <li>sudo dpkg -i atom-amd4.deb:Installation de logiciel (ici par exemple => Atom, éditeur de texte)</li>
+                </ul>
+            <h1>Gestion de documents</h1>
+            <h3>Création de document</h3>
+                <ul>
+                    <li>mkdir nom_du_repertoire</i></b>:Création d'un répertoire dans le dossier courant</li>
+                    <li>mv nom1 nom2:Renommer le nom1 en nom2</li>
+                    <li>mv nom ~/Documents:déplacer le dossier "nom" dans le répertoire Documents</li>
+                    <li>cp nom1 nom2:duplique le dossier nom1, mais le renomme en nom2</li>
+                    <li>mkdir -p 1/2: création d'un dossier dans un sous dossier</li>
+                    <p>ouvrir avec nano éditeur de texte terminal + "shift + inser" pour coller le texte</p>
+                </ul>
+            <h3>Suppression de document</h3>
+                <ul>
+                    <li>rm nom:supprime le fichier "nom" du dossier courant</li>
+                    <li>rmdir nom: supprime le dossier du dossier courant</li>
+                </ul>
+            <p> nano man -mia: indentation du fichier</p>
+      <p class="retour"><a href="../../index.html">Retour</a></p>
+  </body>
+</html>
