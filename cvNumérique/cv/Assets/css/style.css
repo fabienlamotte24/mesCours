@@ -1,0 +1,221 @@
+@font-face {
+  font-family: 'cv';
+  src: url('../font/cv.ttf');
+}
+@font-face {
+  font-family: 'keepcalm';
+  src: url('../font/keepcalm.ttf');
+}
+@font-face {
+  font-family:'fatcat';
+  src: url('../font/fatcat.ttf');
+}
+@font-face {
+  font-family:'tillana';
+  src: url('../font/tillana-semibold.ttf');
+}
+.bold{
+  font-weight:bold;
+}
+-------------------------------------------------------------------------------------------------------------------------
+body,.container-fluid,.row{
+  margin:0;
+  padding:0;
+}
+body{
+  background-image: url('../img/devWeb.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  padding:0 2em 0 2em;
+}
+header{
+  background-color:#530000;
+  border: 3.5px solid black;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px black;
+}
+a{
+  text-decoration:none;
+  color:white;
+}
+a:hover{
+  text-decoration:none;
+  color:grey;
+}
+ul{
+  margin:0.3em;
+  padding:0;
+}
+li{
+  list-style-type: none;
+  align-content: center;
+  font-family:'tillana';
+  font-size:1.5vw;
+}
+#photo{
+  transform:rotate(-90deg);
+  width:90%;
+  height:10%;
+  border-radius:15px;
+  box-shadow:5px 5px 10px black;
+  margin-top:9vh;
+}
+#github, #linkedin{
+  margin-top:17%;
+  width:30%;
+  height:30%;
+  max-height:100px;
+  max-width:100px; 
+}
+.rowContent{
+  margin-top:10vh;
+}
+.title{
+  background-color:#530000;
+  border: 3.5px solid black;
+  border-radius: 15px;
+  color:white;
+  margin-top:1%;
+  box-shadow: 2px 2px 5px black;
+}
+.dev{
+  font-size:2vw;
+}
+.lgContent{
+  background-color:rgb(0,0,0,0.5);
+  color:white;
+}
+hr{
+  border:1px solid white;
+  width:75%;
+}
+.hrTitle{  
+  border:1px solid black;
+  width:75%;
+}
+.titleContent{
+  background-color:#530000;
+  border-radius:15px 15px 0 0;
+  font-family:'tillana';
+}
+.undertitleContent{
+  padding-bottom:10px;
+}
+aside{
+  border-radius:15px;
+}
+p{
+  color:white;
+  text-shadow: 2px 1px black;
+  font-size:1vw;
+}
+.undertitle{
+  font-size:1vw;
+}
+.name{
+  font-size:2vw;
+}
+.presentContent{
+  margin-top:5%;
+}
+#languages, #formations, #experiences, #skills{
+  display:none;
+}
+.fas, .far{
+  color:orange;
+  font-size:2vw;
+}
+.lang{
+  font-size:2vw;
+}
+.rowLang{
+  margin-top:4%;
+}
+#e2n{
+  width:20%;
+  height:80%;
+  float:left;
+}
+#promeo{
+  width:20%;
+  height:80%;
+  float:left;
+}
+#GL{
+  width:20%;
+  height:80%;
+  float:left;
+}
+.e2nContent, .promeoContent, .GLContent{
+  margin-right:5%;
+  margin-top:5%;
+}
+.rowForm{
+  height:30%;
+}
+.formationContent, .experienceContent{
+  margin-top:4%;
+}
+.ajust{
+  height:20vh;
+}
+#norauto{
+  width:20%;
+  height:40%;
+  float:left;
+}
+#roady{
+  width:20%;
+  height:80%;
+  float:left;
+}
+.norauto, .roady{
+  margin-right:5%;
+  margin-top:5%;
+}
+.skills{
+  font-size:22vw;
+}
+.skills li{
+  margin:6% 3% 0 0;
+}
+.xsDev{
+  font-size:22px;
+}
+
+/*stylisation de l'accordion*/
+.accordion {
+    background-color: rgb(83,0,0);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    color: white;
+}
+.active, .accordion:hover {
+   background-color: #9d0101;
+}
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+.xsPresent, .xsTextLanguages, .xsForm, .xsXP, .xsSkills{
+  font-size:12px;
+  color:black;
+  text-shadow:none;
+}
+.xsLanguages{
+  font-size:12px;
+  color:black;
+  text-shadow:none;
+  color:orange;
+}
